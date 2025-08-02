@@ -1,0 +1,123 @@
+/* Estilos personalizados para el sistema de café */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 0.375rem;
+}
+
+.alert {
+  border-radius: 0.375rem;
+}
+
+/* Estilos para el formulario de login */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para las tarjetas del dashboard */
+.dashboard-card {
+  transition: transform 0.2s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Estilos para la tabla de reportes */
+.table-responsive {
+  border-radius: 0.375rem;
+}
+
+/* Estilos para los botones de acción */
+.btn-group-sm > .btn,
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+/* Estilos para el footer */
+footer {
+  margin-top: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .table-responsive {
+    font-size: 0.875rem;
+  }
+
+  .btn-group-vertical .btn {
+    margin-bottom: 0.25rem;
+  }
+}
+
+/* Estilos para validaciones */
+.is-invalid {
+  border-color: #dc3545;
+}
+
+.invalid-feedback {
+  display: block;
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.is-valid {
+  border-color: #198754;
+}
+
+.valid-feedback {
+  display: block;
+  color: #198754;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+/* Loading spinner */
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Estilos para las tarjetas de precios */
+.precio-card {
+  border-left: 4px solid #007bff;
+}
+
+.precio-card.bueno {
+  border-left-color: #28a745;
+}
+
+.precio-card.regular {
+  border-left-color: #ffc107;
+}
+
+.precio-card.malo {
+  border-left-color: #dc3545;
+}
